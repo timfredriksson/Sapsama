@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+  }
+  
+  .header {
+    background-color: white;
+    padding:
+    text-align: center;
+  }
+  
+  .content {
+    padding: 16px;
+    background-image:url("https://cdn.glitch.com/aaa4771a-588d-4a89-91de-4fa8cbac832e%2F9061B178-39C3-40B1-BEFB-3AF37128C612.jpeg?v=1580101066116");
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+  .content1 {
+    padding: 16px;
+    background-image:url("https://cdn.glitch.com/c6b403f5-5fb9-4363-a4bf-110de54488bd%2F%5Bwww.sapsama.co.uk%5D%5B922%5De020947bbc1c2ec82642e198b38575130a6f36mv2.jpg?v=1580939876150");
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+  .content2 {
+    padding: 16px;
+    background-image: url("https://cdn.glitch.com/c6b403f5-5fb9-4363-a4bf-110de54488bd%2FFEB2EF81-0EF3-4247-830B-6CDA128642F3.jpeg?v=1580044503521");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content3 {
+    padding: 16px;
+    background-image: url("https://cdn.glitch.com/c6b403f5-5fb9-4363-a4bf-110de54488bd%2F90AE6AB4-A728-418C-BF9B-43FC7C461D1C.jpeg?v=1580861241246");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content4 {
+    padding: 16px;
+    background-image: url("https://cdn.glitch.com/c6b403f5-5fb9-4363-a4bf-110de54488bd%2F%5Bwww.sapsama.co.uk%5D%5B891%5De02094782d3c6cad9140329670cb90d26c301cmv2.jpg?v=1580863323582");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  .logo {
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
+  .footer {
+    background-color:white;
+    width:100%;
+    text-align:center;
+    font-size:15px;
+    font-family:Courier;
+    padding-top:20px;
+    padding-bottom:20px;
+    float:left;
+  }
+  
+  hr {
+    background-color:red;
+    height:2px;
+    width:70%;
+    border:none;
+  }
+  
+  .what {
+    font-weight:bold;
+    color:black;
+    background-color:grey;
+    opacity:0.8;
+    padding:3px;
+    width:70%;
+    position: relative;
+    bottom: 50%;
+    width: 70%;
+    border-bottom: 8px solid yellow;
+    text-align:center;
+  }
+  
+  .what1 {
+    font-weight:bold;
+    color:black;
+    background-color:grey;
+    opacity:0.8;
+    padding:3px;
+    width:70%;
+    position:relative;
+    bottom:50%;
+    width:70%;
+    border-bottom: 8px solid blue;
+    text-align:center;
+  }
+  
+  .what2 {
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    opacity: 0.9;
+    padding: 3px;
+    width: 70%;
+    position: relative;
+    bottom: 50%;
+    width: 70%;
+    border-bottom: 8px solid red;
+    text-align: center; 
+  }
+  
+  .what3 {
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    opacity: 0.8;
+    padding: 3px;
+    width: 70%;
+    position: relative;
+    bottom: 50%;
+    width: 70%;
+    border-bottom: 8px solid orange;
+    text-align: center;
+  }
+  
+  .what4 {
+    font-weight: bold;
+    background-color: grey;
+    color: black;
+    opacity: 0.8;
+    padding: 3px;
+    width: 60%;
+    position: relative;
+    bottom: 50%;
+    border-bottom: 8px solid lavender; 
+  }
+  
+  .classname {
+      -moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+      -webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+      box-shadow:inset 0px 1px 0px 0px #f9eca0;
+      background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
+      background:-moz-linear-gradient( center top, #f0c911 5%, #f2ab1e 100% );
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e');
+      background-color:#f0c911;
+      -webkit-border-top-left-radius:37px;
+      -moz-border-radius-topleft:37px;
+      border-top-left-radius:37px;
+      -webkit-border-top-right-radius:0px;
+      -moz-border-radius-topright:0px;
+      border-top-right-radius:0px;
+      -webkit-border-bottom-right-radius:37px;
+      -moz-border-radius-bottomright:37px;
+      border-bottom-right-radius:37px;
+      -webkit-border-bottom-left-radius:0px;
+      -moz-border-radius-bottomleft:0px;
+      border-bottom-left-radius:0px;
+      text-indent:0;
+      border:1px solid #e65f44;
+      display:inline-block;
+      color:#c92200;
+      font-family:Verdana;
+      font-size:15px;
+      font-weight:bold;
+      font-style:normal;
+      height:65px;
+      line-height:65px;
+      width:146px;
+      text-decoration:none;
+      text-align:center;
+      text-shadow:1px 1px 0px #ded17c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+  }
+  .classname:hover {
+      background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
+      background:-moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
+      background-color:#f2ab1e;
+  }.classname:active {
+      position:relative;
+      top:1px;
+  }
+  
+  
+  .welccome {
+    text-align: center;
+  }
+  
+  .welccome-slogan {
+    text-align: center;
+    font-weight:bold;
+    font-size:25px;
+  }
+  
+  .hans {
+    width:40%;
+    float:left;
+  }
+    
+  .cel {
+     height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .center {
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bg {
+    background: linear-gradient(321deg, #5745ff, #aa00ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .border {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3px;
+    background-color: white;
+    height: 95%;
+  }
